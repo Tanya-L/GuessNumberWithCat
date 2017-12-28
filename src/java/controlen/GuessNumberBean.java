@@ -24,10 +24,10 @@ public class GuessNumberBean implements Serializable {
     
     public String getRespons(){
     if (userguess==RANDOMNUMBER) {
-        return "I can not belived. You guessed right!";
+        return "I can not believe it. You guessed right!";
     } else if (userguess<RANDOMNUMBER){ 
         return "Sorry, my dear. "
-                + "You guessed to low number. "
+                + "You guessed too low number. "
                 + "Do you want to try one more time?";
     } else { 
         return "Sorry, my dear. You guessed to high number. Do you want to try one more time?";
